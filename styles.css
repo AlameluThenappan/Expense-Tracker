@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background-color: #1c79d7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a66c5;
+}
+
+.filters {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e6f2ff;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.expense-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.expense-table th,
+.expense-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.month-header {
+  margin-top: 30px;
+  color: #2c3e50;
+}
+
+.delete-btn {
+  padding: 4px 10px;
+  color: white;
+  background-color: crimson;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+.summary-section {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#summaryBtn {
+  padding: 8px 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#summaryBtn:hover {
+  background-color: #1e40af;
+}
+
+#yearSelect {
+  padding: 6px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
